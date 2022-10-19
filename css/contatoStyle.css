@@ -1,0 +1,145 @@
+.conteudo-pagina {
+    padding: 65px 165px;
+}
+
+
+header {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 42px
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #33323d
+}
+
+header nav ul li a span {
+    color: #5fb4a2
+}
+
+hr {
+    margin-top: 100px;
+    border: 1px solid #33323d30;
+}
+
+
+.hero-contact {
+    width: 100%;
+    height: 84px;
+    margin-top: 48px;
+    margin-bottom: 150px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-contact strong {
+    display: inline-block;
+    width: 350px;
+    height: 42px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.texto-social p {
+    width: 635px;
+    height: 180px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 54px;
+}
+
+.texto-social ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px
+}
+
+.texto-social ul li a {
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.texto-social ul li img:hover {
+    cursor: pointer
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: #33323d;
+
+    padding: 0px 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px
+}
+
+footer ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+footer ul li img:hover {
+    cursor: pointer
+}
